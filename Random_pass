@@ -1,0 +1,5 @@
+import random
+password="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz!@#$%^&*()-+="
+length=int(input("Enter the length of the password:"))
+a="".join(random.sample(password,length))
+print("The Random Generated Password is:",a)
